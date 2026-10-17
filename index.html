@@ -88,7 +88,7 @@
     <section class="panel" data-step="3">
       <div class="eyebrow">chapter three · little things</div>
       <h2>Things I appreciate about you ♡</h2>
-      <p class="sub">A few little things I like about you, because you deserve to know them. 🎀</p>
+      <p class="sub">These are starter ideas — swap them for things that are actually true about her.</p>
       <div class="reasons">
         <div class="reason"><span>🌷</span>The way you make me smile</div>
         <div class="reason"><span>✨</span>Your own kind of sparkle</div>
@@ -101,11 +101,13 @@
     <section class="panel" data-step="4">
       <div class="eyebrow">chapter four · soundtrack</div><div class="moon">🎧</div>
       <h2>A little soundtrack for you</h2>
-      
+      <p>Pick three songs that remind you of her, or that you think she'll love. Add them here before publishing.</p>
+      <div class="memory">
         <p>♫ <strong>Song one:</strong> <span data-song="1">your soft, dreamy song</span></p>
         <p>♫ <strong>Song two:</strong> <span data-song="2">your happy, playful song</span></p>
         <p>♫ <strong>Song three:</strong> <span data-song="3">your main-character song</span></p>
       </div>
+      <p class="tiny">Tip: send her a playlist link separately, or make the song titles clickable by editing this file.</p>
       <button class="btn" onclick="go(5)">Reveal the final surprise 💗</button>
     </section>
 
@@ -123,12 +125,12 @@
       <p class="tiny" id="sparkleMsg" aria-live="polite"></p>
     </section>
   </main>
-  <footer>made with a little courage and a lot of care ♡</footer>
+  <footer>made with a little courage, a lot of care, and free tools ♡</footer>
 </div>
 <script>
   // PERSONALISE THESE BEFORE YOU PUBLISH:
   const HER_NICKNAME = "Rishika";
-  const SONGS = ["Snowman — Sia", "Until I Found You — Stephen Sanchez", "Perfect - Ed Sheeran"];
+  const SONGS = ["Snowman — Sia", "Until I Found You — Stephen Sanchez", "your favourite anime opening"];
 
   document.querySelectorAll('[data-her="nickname"]').forEach(el => el.textContent = HER_NICKNAME);
   document.querySelectorAll('[data-song="1"]')[0].textContent = SONGS[0];
